@@ -15,6 +15,8 @@ const Home = () => {
                     loop={Infinity}
                     wrapper="bold"
                     steps={[
+                        " ", 
+                        1500,
                         "a graphic designer", 
                         1200,
                         "a front-end developer",

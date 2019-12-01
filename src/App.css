@@ -110,17 +110,25 @@ div.mainArbeid {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 2rem;
   margin: 5rem 2rem;
- 
   padding: 1rem;
-
-
+  text-decoration: none;
 }
+
+/* .sec-arbeid>div section:hover {
+  opacity: 50%;
+  overflow: none;
+  
+} */
 
 .whiteBg {
   background-color: #eee;
- 
+  text-decoration: none;
+  color: black;
+}
 
-
+.whiteBg:hover{
+  opacity: 50%;
+  transition: 0.8s;
 }
 
 section.imgArbeids {
@@ -137,11 +145,14 @@ section.imgArbeids {
   object-fit: cover;
 }
 
+
+
 .imgArbeids>h2 {
   text-align: left;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 1rem 0 1rem;
+  text-decoration: none;
 }
 
 .imgArbeids>p {
@@ -151,7 +162,9 @@ section.imgArbeids {
   margin: 1rem 0 0rem;
 }
 
-
+Link > h2 {
+  text-decoration: none;
+}
 
 /* div.spanAll {
   grid-template-columns: 1fr;
@@ -276,6 +289,10 @@ section.fotografier {
 }
 
 
+.search {
+  margin-top: 50rem;
+  color: #eee;
+}
 
 
 
@@ -347,7 +364,7 @@ section.secOm {
 
 
 .bgColor {
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   border-top: 0.3rem solid rgb(255, 255, 255);
 }
@@ -458,6 +475,13 @@ input#message {
   margin: 1rem;
 
 }
+input#message:focus {
+  background-color: rgb(255, 255, 255);
+  width: 23rem;
+}
+
+
+
 
 input[type=text]:focus {
   outline: none;
@@ -483,8 +507,19 @@ input.inpWork {
  text-align: center;
  margin: auto auto;
  margin-bottom: 2rem;
+
+}
+
+button {
+  outline: none;
 }
 
 
-
 /* ********************    end    ******************** */
+
+
+.infoText {
+  color: wheat;
+  margin: 30rem;
+  font-size: 40re;
+}

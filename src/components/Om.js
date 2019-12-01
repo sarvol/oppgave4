@@ -19,6 +19,8 @@ const Om = () => {
                                 loop={Infinity}
                                 wrapper="bold"
                                 steps={[
+                                    " ", 
+                                    1200,
                                     "Graphic designer", 
                                     1200,
                                     "Front-end developer",
@@ -45,9 +47,9 @@ const Om = () => {
                 
                 <div> 
                     <label for="name"> Name* </label>
-                    <input type="text" name="navn" placeholder="Ditt navn" required autocomplete="off" id="navn" />
+                    <input type="text" name="navn" placeholder="Your name" required autocomplete="off" id="navn" />
                     <label for="e-mail"> E-mail* </label>
-                    <input type="text" name="e-post" placeholder="Din e-post" required autocomplete="off" id="e-post" />
+                    <input type="text" name="e-post" placeholder="Your E-mail" required autocomplete="off" id="e-post" />
                 </div>
 
                 <div>

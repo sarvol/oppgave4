@@ -7,7 +7,7 @@ const Fotografi = (props) => {
       <>
       <div >
         <section className='foto'>
-            <img src={props.url } />
+            <img src={props.url } alt={props.alt} />
             <div className=" textFoto">
             <h2>{props.title}</h2>
             <p><strong>Year:</strong> {props.year}</p>
