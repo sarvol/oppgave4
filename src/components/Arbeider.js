@@ -2,9 +2,12 @@
 
 import React from 'react'
 import {Link, Router} from "@reach/router"
-import Bookcovers from './undersiderProsjekt/Bookcovers'
-import Bachelor from './undersiderProsjekt/Bachelor'
-import FacelessEmotions from './undersiderProsjekt/FacelessEmotions'
+import Bookcovers from './Bookcovers'
+import Bachelor from './Bachelor'
+import FacelessEmotions from './FacelessEmotions'
+import Tech from './Tech'
+import VollDesign from './VollDesign'
+import Blackbox from './Blackbox'
 
 
 const imgArbeid = (props) => {
@@ -16,6 +19,7 @@ const imgArbeid = (props) => {
     
     return(
         <div>
+           
         <Link to={props.path} className="whiteBg"> 
         <div className="whiteBg">
             <section className='imgArbeids'>
@@ -25,15 +29,15 @@ const imgArbeid = (props) => {
                
                 <p><strong>Type: </strong>{props.type}</p> 
             </section>
-           
-           
         </div>
         </Link>
         <Router>
         <Bookcovers path="bookcovers" />
         <Bachelor path="bachelor" />
-        <FacelessEmotions path="faceless" />
-        
+        <FacelessEmotions path="faceless" />        
+        <VollDesign path="volldesign" />        
+        <Tech path="tech" />        
+        <Blackbox path="blackbox" />        
         </Router>
         </div>
     )

@@ -1,8 +1,6 @@
-:root {
-  --font-size: 62.5%;
-}
 
-/* ************** General page  **************** */
+
+/* ************** General  nav page  **************** */
 *, div{
   margin: 0;
   padding: 0;
@@ -16,6 +14,7 @@ body {
   gap: 1rem;
   background-color: rgb(0, 0, 3);
   scroll-behavior: smooth;
+  font-family: proxima nova, sans-serif, sans-serif;
   
 }
 
@@ -69,8 +68,6 @@ header {
   grid-auto-flow: column;
   justify-content: center;
   margin: 3rem auto;
-
-
 }
 
 
@@ -124,6 +121,7 @@ div.mainArbeid {
   background-color: #eee;
   text-decoration: none;
   color: black;
+  transition: 0.8s;
 }
 
 .whiteBg:hover{
@@ -143,6 +141,7 @@ section.imgArbeids {
   width: 100%;
   height: 20rem;
   object-fit: cover;
+  
 }
 
 
@@ -237,7 +236,7 @@ h1.typing {
 
 
 
-/* *************    Fotoer css       ******************* */
+/* *************    FOTO CSS       ******************* */
 
 .secFoto {
   margin-bottom: 4rem;
@@ -267,6 +266,7 @@ h1.typing {
 .textFoto > p {
   font-size: 0.8rem;
   text-align: right;
+  
 }
 
 section.fotografier {
@@ -286,13 +286,19 @@ section.fotografier {
 
 .foto>img {
   width: 100%;
+  transition: 1s;
+  
+}
+
+.foto>img:hover {
+  width: 120%;
+  transform: translateX(-8%);
+  transition: 1s;
+  
 }
 
 
-.search {
-  margin-top: 50rem;
-  color: #eee;
-}
+
 
 
 
@@ -317,7 +323,7 @@ section.secOm {
   margin-top: 4rem;
   display: grid;
   padding: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   
   
 }
@@ -325,7 +331,7 @@ section.secOm {
   font-weight: 200;
 }
 
-.secOm div >h1 {
+.secOm div > h1 {
 
   font-size: 2rem;
   text-align: left;
@@ -354,9 +360,9 @@ section.secOm {
 
 .selfPort {
   width: 25rem;
-  display: grid;
+  /* display: grid;
   grid-auto-flow: column;
-  justify-content: center;
+  justify-content: center; */
   margin: 2rem auto;
 }
 
@@ -517,9 +523,282 @@ button {
 
 /* ********************    end    ******************** */
 
-
-.infoText {
-  color: wheat;
-  margin: 30rem;
-  font-size: 40re;
+/* **************  Undersider for prosjekter     ***************** */
+.prosjekt {
+  /* background-color: white; */
+  margin: 15rem 2rem;
+  color: white;
+  
 }
+
+
+.prosjekt h1 {
+  font-weight: 300;
+  columns: 1fr;
+  font-size: 3rem;
+  text-align: left;
+  width: 50%;
+  margin: auto auto;
+}
+
+h3.prosjektnavn  {
+  columns: 1fr;
+  font-size: 1rem;
+  text-align: left;
+  width: 50%;
+  margin: auto auto;
+  font-weight: 300;
+  padding-bottom: 1rem;
+  
+}
+
+.prosjekt p {
+  columns: 1fr;
+  font-size: 1rem;
+  width: 50%;
+}
+
+p.prosjektInfo {
+  font-size: 1rem;
+  text-align: justify;
+  margin: auto auto;
+  line-height: 1.7rem;
+  padding-left: 5rem;
+}
+
+
+
+
+div.prosjektbilder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10rem;
+}
+
+.prosjektbilder > img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.prosjektbilder h2 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 0;
+  text-align: right;
+}
+
+.imgProsjekt {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 2rem;
+  
+}
+
+.imgProsjekt > img {
+  width: 100%;
+  
+}
+
+
+
+/* *********  BREAK POINTS     ************** */
+
+@media (max-width: 1050px) {
+  .infoBox {
+    padding-top: 2rem;
+    margin-left: 1rem;
+    width: 50%;
+  }
+
+  .secOm div {
+    width: 100%;
+  }
+
+  .bgColor {
+    width: 100vw;
+
+  }
+
+  section.secOm {
+    margin: 0;
+    margin-top: 4rem;
+   
+    display: grid;
+    padding: 1rem;
+    width: 100%;
+    
+  }
+
+  .contact   {
+    width: 100%;
+    margin: 0;
+    
+  }
+
+  .selv {
+    width: 100%;
+    align-items: center;
+  }
+
+  .secOm div > p {
+
+    width: 50%;
+       
+     }
+}
+ 
+
+
+@media (max-width: 780px) {
+
+  .bgColor {
+    margin: auto auto;
+  }
+
+  section.secOm {
+    margin: 0;
+    margin-top: 4rem;
+    padding: 1rem;
+    width: 100vw;
+    margin: auto auto;
+
+  }
+
+
+  .mainOm {
+    display: grid;
+  }
+
+  .secOm div {
+    width: 100%;
+  }
+
+  .contact   {
+    width: 100%;
+    margin: 0;
+    
+  }
+
+  div.infoBox {
+    padding-top: 2rem;
+    margin-left: 1rem;
+    width: 100%;
+    margin: auto auto;
+  }
+
+  
+
+  .secOm div > p {
+
+ width: 100%;
+    
+  }
+
+  .prosjekt p  {
+    columns: 1fr;
+    font-size: 1rem;
+    width: 80%;
+  }
+
+
+p.prosjektInfo {
+  padding-left: 2rem;
+}
+
+.prosjekt h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin: 0;
+}
+
+h3.prosjektnavn {
+  text-align: left;
+  margin: 0;
+}
+
+.selfPort {
+  width: 100%;
+  margin: auto auto;
+}
+
+div.infoBox  p {
+  margin: 0;
+}
+
+
+
+}
+
+
+
+@media (max-width: 600px) {
+  .secOm div > p {
+
+    width: 20rem;
+    margin: 0;
+       
+     }
+
+     .bgColor {
+      margin: auto auto;
+    }
+     div.infoBox {
+      padding-top: 2rem;
+      margin-left: 1rem;
+      width: 50%;
+    }
+
+    section.secOm {
+      width: 30rem;
+      padding: 0;
+      
+    }
+
+    div.prosjektbilder {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 1rem;
+      text-decoration: none;
+      margin-top: 10rem;
+    }
+
+    .prosjektbilder > img {
+      width: 100%;
+      height: 20rem;
+      object-fit: cover;
+    }
+
+    .mainOm {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+
+    div.infoBox {
+      padding-top: 2rem;
+      margin-left: 1rem;
+      width: 50%;
+      margin: auto auto;
+    }
+
+    p.omBox  {
+      margin: 0;
+    }
+
+    .selfPort {
+      width: 100%;
+      margin: auto auto;
+    }
+    
+ 
+
+    
+}
+

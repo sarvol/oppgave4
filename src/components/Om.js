@@ -6,7 +6,7 @@ import Typical from "react-typical"
 
 const Om = () => {
     return (
-        <div>
+        <div className="Om">
             <main className="mainOm">
                 <section className="secOm">
                     <div>
@@ -30,7 +30,7 @@ const Om = () => {
                                 ]}
                             /> 
                             </h3>
-                            <p>My name is Sara and I am a Graphic Designer living in Oslo. 
+                            <p className="omBox">My name is Sara and I am a Graphic Designer living in Oslo. 
                                 I graduated from Kristiania University College in june 2019, with a semester abroad 
                                 at Nuova Accademia di Belle Arti in 2018.
 
