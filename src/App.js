@@ -42,8 +42,6 @@ const App = () => {
         <nav className="top-meny">
           <NavLink to="/" activeClassName="chosen" >Home</NavLink>
           <NavLink to="arbeid" activeClassName="chosen" >Graphic design</NavLink>
-          {/* <NavLink to="bachelor" activeClassName="chosen" > design</NavLink> */}
-            
           <NavLink to="foto" activeClassName="chosen" >Photo</NavLink>
           <NavLink to="om" activeClassName="chosen" >Profil</NavLink>
       
@@ -58,8 +56,7 @@ const App = () => {
         <FacelessEmotion path="arbeid/faceless" />
         <Tech path="arbeid/tech" />
         <VollDesign path="arbeid/volldesign" />
-        <Blackbox path="arbeid/blackbox" />
-        {/* <Bachelor path="bachelor" /> */}
+        <Blackbox path="arbeid/blackbox" /> 
         <Om path="om" />
         <Foto path="foto" />
        
