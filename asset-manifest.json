@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oppgave4/static/css/main.769ae475.chunk.css",
+    "main.css": "/oppgave4/static/css/main.5fdf1bbf.chunk.css",
     "main.js": "/oppgave4/static/js/main.79e3b4ae.chunk.js",
     "main.js.map": "/oppgave4/static/js/main.79e3b4ae.chunk.js.map",
     "runtime-main.js": "/oppgave4/static/js/runtime-main.701c1f4c.js",
@@ -8,16 +8,16 @@
     "static/js/2.3457efba.chunk.js": "/oppgave4/static/js/2.3457efba.chunk.js",
     "static/js/2.3457efba.chunk.js.map": "/oppgave4/static/js/2.3457efba.chunk.js.map",
     "index.html": "/oppgave4/index.html",
-    "precache-manifest.d4a432e28f02d9c4561624a994693d4c.js": "/oppgave4/precache-manifest.d4a432e28f02d9c4561624a994693d4c.js",
+    "precache-manifest.80c284a189b8f5b5ba9e97fcaf713d40.js": "/oppgave4/precache-manifest.80c284a189b8f5b5ba9e97fcaf713d40.js",
     "service-worker.js": "/oppgave4/service-worker.js",
-    "static/css/main.769ae475.chunk.css.map": "/oppgave4/static/css/main.769ae475.chunk.css.map",
+    "static/css/main.5fdf1bbf.chunk.css.map": "/oppgave4/static/css/main.5fdf1bbf.chunk.css.map",
     "static/media/logo.png": "/oppgave4/static/media/logo.0fde65db.png",
     "static/media/selv11-12.png": "/oppgave4/static/media/selv11-12.4f2c07ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.701c1f4c.js",
     "static/js/2.3457efba.chunk.js",
-    "static/css/main.769ae475.chunk.css",
+    "static/css/main.5fdf1bbf.chunk.css",
     "static/js/main.79e3b4ae.chunk.js"
   ]
 }
