@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f2e456850f30a2bcac8c0395389b5df",
+    "revision": "98c255a6e7e2740971d4b8b52aa4d972",
     "url": "/oppgave4/index.html"
   },
   {
-    "revision": "facfb686f07a9da2646e",
-    "url": "/oppgave4/static/css/main.fbfa50eb.chunk.css"
+    "revision": "9ab7d83961b96034d685",
+    "url": "/oppgave4/static/css/main.92701e2c.chunk.css"
   },
   {
     "revision": "ee9794c1451b9e8f2743",
     "url": "/oppgave4/static/js/2.3457efba.chunk.js"
   },
   {
-    "revision": "facfb686f07a9da2646e",
+    "revision": "9ab7d83961b96034d685",
     "url": "/oppgave4/static/js/main.79e3b4ae.chunk.js"
   },
   {
