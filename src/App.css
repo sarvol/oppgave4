@@ -37,18 +37,10 @@ header {
 }
 
 
-
 .top-meny a {
   text-decoration: none;
   color: white;
 }
-
-
-.top-meny a.chosen,
-.top-meny a:hover {
-  border-bottom: 0.1rem solid white;
-}
-
 
 
 .logo {
@@ -104,7 +96,7 @@ div.mainArbeid {
 }
 
 .whiteBg:hover{
-  filter: grayscale(100%);
+  opacity: 50%;
   transition: 0.8s;
 }
 
@@ -154,8 +146,6 @@ Link > h2 {
   color: white;
   margin: 30rem 2rem;
   display: grid;
-  
-
 }
 
 .mainHome>h1 {
@@ -167,7 +157,6 @@ Link > h2 {
 .welcome {
   position: absolute;
   left: 10%;
-
 }
 
 h1.typing {
@@ -179,7 +168,6 @@ h1.typing {
   left: 10%;
   text-align: left;
   font-size: 3.5rem;
-
 }
 
 
