@@ -96,7 +96,7 @@ div.mainArbeid {
 }
 
 .whiteBg:hover{
-  opacity: 50%;
+  filter: grayscale(100%);
   transition: 0.8s;
 }
 
