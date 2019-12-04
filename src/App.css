@@ -711,8 +711,13 @@ div.prosjektbilder {
       margin: auto auto;
     }
     
- 
+    .mainHome {
+      color: white;
+      margin: 15rem 2rem; 
+    }
 
-    
+    h1.typing {
+      font-size: 2rem;
+    }
 }
 
