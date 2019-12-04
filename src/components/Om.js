@@ -35,7 +35,7 @@ const Om = () => {
                                 at Nuova Accademia di Belle Arti in 2018.
 
                                 Currently studying Frontend-developing and 
-                                working as an intern at MediaCom.
+                                working as an intern in MediaCom.
                             </p>
                     </div>
                     
