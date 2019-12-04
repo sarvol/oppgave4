@@ -1,5 +1,3 @@
-
-
 /* ************** General  nav page  **************** */
 *, div{
   margin: 0;
@@ -71,22 +69,8 @@ header {
 }
 
 
-/* **********************       grafisk design       ************* */
+/* **********************      ARBEIDER  GRAFISK DESIGN  CSS      ************* */
 
-
-/* .arbeid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) );
-  gap: 1rem;
-  
-
-}
-
-.sec-arbeid {
-  background-color: white;
-  padding: 1rem;
-}
- */
 
 .sec-arbeid {
   margin-bottom: 4rem;
@@ -98,8 +82,6 @@ header {
 
 div.mainArbeid {
   display: grid;
-  
-
 }
 
 .sec-arbeid>div {
@@ -111,17 +93,14 @@ div.mainArbeid {
   text-decoration: none;
 }
 
-/* .sec-arbeid>div section:hover {
-  opacity: 50%;
-  overflow: none;
-  
-} */
+
 
 .whiteBg {
   background-color: #eee;
   text-decoration: none;
   color: black;
   transition: 0.8s;
+  
 }
 
 .whiteBg:hover{
@@ -165,29 +144,6 @@ Link > h2 {
   text-decoration: none;
 }
 
-/* div.spanAll {
-  grid-template-columns: 1fr;
-  margin: 20rem 10rem 2rem;
-  height: 2rem;
-  color: #eee;
-  text-align: center;
-
-
-}
-
-div.spanAll>h1 {
-  font-size: 3rem;
-  font-weight: 300;
-} */
-
-
-
-
-/* .sec-1 {
-  background-image: url(./img/bookcovers/handmaids-tale.jpg);
-  background-position: center;
-  background-size: cover;
-} */
 
 
 
@@ -198,8 +154,7 @@ div.spanAll>h1 {
   color: white;
   margin: 30rem 2rem;
   display: grid;
-  /* justify-content: center;
-  align-items: center; */
+  
 
 }
 
@@ -227,12 +182,7 @@ h1.typing {
 
 }
 
-/* h1.welcomeInfo {
-  position: absolute;
-  margin: 25rem 0 0 0;
-  font-size: 1rem;
-  left: 80%;
-} */
+
 
 
 
@@ -300,10 +250,6 @@ section.fotografier {
 
 
 
-
-
-
-
 /* *************    OM CSS       ******************* */
 
 
@@ -360,13 +306,16 @@ section.secOm {
 
 .selfPort {
   width: 25rem;
-  /* display: grid;
+  display: grid;
   grid-auto-flow: column;
-  justify-content: center; */
+  justify-content: center;
   margin: 2rem auto;
 }
 
-/* contact form */
+
+
+
+/* *********  contact form   ********* */
 
 
 .bgColor {
@@ -414,8 +363,6 @@ h1.contact {
   text-align: center;
   margin-bottom: 1rem;
   font-weight: 300;
- 
-
 }
 
 
@@ -426,16 +373,11 @@ h1.contact {
   font-weight: 300;
 }
 
-
-
-
-
 .secKontakt {
   padding: 1rem;
   margin-top: 2rem;
  
 }
-
 
 .secKontakt {
   color: black;
@@ -449,13 +391,11 @@ label {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 div#contactForm>div {
   margin: 2rem 0;
 }
-
 
 input[type=text] {
   width: 10rem;
@@ -466,7 +406,6 @@ input[type=text] {
   transition: 0.25s;
   font-size: 1rem;
   margin: 1rem;
-
 }
 
 input#message {
@@ -479,15 +418,12 @@ input#message {
   transition: 0.25s;
   font-size: 1rem;
   margin: 1rem;
-
 }
+
 input#message:focus {
   background-color: rgb(255, 255, 255);
   width: 23rem;
 }
-
-
-
 
 input[type=text]:focus {
   outline: none;
@@ -504,7 +440,6 @@ button[type="submit"] {
   font-size: 1rem;
   color: black;
   margin-top: 0;
-
 }
 
 
@@ -523,14 +458,20 @@ button {
 
 /* ********************    end    ******************** */
 
-/* **************  Undersider for prosjekter     ***************** */
+
+
+
+
+
+
+/* **************  UNDERSIDE FOR PROSJEKTER - GRAFISK     ***************** */
+
+
+
 .prosjekt {
-  /* background-color: white; */
   margin: 15rem 2rem;
   color: white;
-  
 }
-
 
 .prosjekt h1 {
   font-weight: 300;
@@ -549,7 +490,6 @@ h3.prosjektnavn  {
   margin: auto auto;
   font-weight: 300;
   padding-bottom: 1rem;
-  
 }
 
 .prosjekt p {
@@ -565,9 +505,6 @@ p.prosjektInfo {
   line-height: 1.7rem;
   padding-left: 5rem;
 }
-
-
-
 
 div.prosjektbilder {
   display: grid;
@@ -598,17 +535,15 @@ div.prosjektbilder {
   align-items: center;
   margin-top: 10rem;
   gap: 2rem;
-  
 }
 
 .imgProsjekt > img {
   width: 100%;
-  
 }
 
 
 
-/* *********  BREAK POINTS     ************** */
+/* **************  BREAK POINTS     ************** */
 
 @media (max-width: 1050px) {
   .infoBox {
@@ -623,7 +558,6 @@ div.prosjektbilder {
 
   .bgColor {
     width: 100vw;
-
   }
 
   section.secOm {
@@ -632,14 +566,12 @@ div.prosjektbilder {
    
     display: grid;
     padding: 1rem;
-    width: 100%;
-    
+    width: 100%;  
   }
 
   .contact   {
     width: 100%;
-    margin: 0;
-    
+    margin: 0; 
   }
 
   .selv {
@@ -649,8 +581,7 @@ div.prosjektbilder {
 
   .secOm div > p {
 
-    width: 50%;
-       
+    width: 50%; 
      }
 }
  
@@ -668,7 +599,6 @@ div.prosjektbilder {
     padding: 1rem;
     width: 100vw;
     margin: auto auto;
-
   }
 
 
@@ -683,7 +613,6 @@ div.prosjektbilder {
   .contact   {
     width: 100%;
     margin: 0;
-    
   }
 
   div.infoBox {
@@ -696,9 +625,7 @@ div.prosjektbilder {
   
 
   .secOm div > p {
-
- width: 100%;
-    
+    width: 100%; 
   }
 
   .prosjekt p  {
@@ -708,31 +635,29 @@ div.prosjektbilder {
   }
 
 
-p.prosjektInfo {
-  padding-left: 2rem;
-}
+  p.prosjektInfo {
+    padding-left: 2rem;
+  }
 
-.prosjekt h1 {
-  font-size: 2rem;
-  text-align: left;
-  margin: 0;
-}
+  .prosjekt h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0;
+  }
 
-h3.prosjektnavn {
-  text-align: left;
-  margin: 0;
-}
+  h3.prosjektnavn {
+    text-align: left;
+    margin: 0;
+  }
 
-.selfPort {
-  width: 100%;
-  margin: auto auto;
-}
+  .selfPort {
+    width: 100%;
+    margin: auto auto;
+  }
 
-div.infoBox  p {
-  margin: 0;
-}
-
-
+  div.infoBox  p {
+    margin: 0;
+  }
 
 }
 
@@ -746,7 +671,7 @@ div.infoBox  p {
        
      }
 
-     .bgColor {
+      .bgColor {
       margin: auto auto;
     }
      div.infoBox {

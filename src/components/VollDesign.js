@@ -50,7 +50,8 @@ const VollDesign = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                A visual identity is a vital part of a company or a brand. to distinct themselves from competition and draw attentions from their target audience, a coherent and adaptable design is important. I decided to give myself an identity for my own brand, that represent my style and also make it easier to clients to recognise me. The geometric shapes is used to show how I can play with both shapes and typography, two areas I enjoy working with, where i show how the different shapes in my logo writes out my last name.
+                A visual identity is a vital part of a company or a brand. to distinct themselves from competition and draw attentions from their target audience, a coherent and adaptable design is important. I decided to give myself an identity for my own brand, that represent my style and also make it easier to clients to recognise me. The geometric shapes is used to show how I can play with both shapes and typography, two areas I enjoy working with, where I show how the different shapes in my logo writes out my last name.
+
 
                 </p>
             

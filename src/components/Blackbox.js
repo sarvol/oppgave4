@@ -57,7 +57,8 @@ const VollDesign = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                A visual identity is a vital part of a company or a brand. To distinct themselves from competition and draw attentions from their target audience, a coherent and adaptable design is important. I re-designed the existing identity to Black Box teater in Oslo, where I focused on creating a new typeface that would represent Black Box, a typface with multiple ways of using depending on the media.
+                A visual identity is a vital part of a company or a brand. To distinct themselves from competition and draw attentions from their target audience, a coherent and adaptable design is important. I re-designed the existing identity to Black Box teater in Oslo, where I focused on creating a new typeface that would represent Black Box, a typeface with multiple ways of using depending on the media.
+
 
 
                 </p>

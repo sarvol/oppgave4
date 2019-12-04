@@ -48,9 +48,8 @@ const Tech = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                A popular science magazine based on science and technology. The new magazine series focus
-                on creating coherent design with a limited colour palett, interesting photos and
-                new relevant content that may take an interest amongst an older target group.
+                A popular science magazine based on science and technology. The new magazine series focus on creating coherent design with a limited colour palette, interesting photos and new relevant content that may take an interest amongst an older target group.
+
                 </p>
             
 

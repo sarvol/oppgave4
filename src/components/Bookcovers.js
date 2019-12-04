@@ -46,8 +46,8 @@ const Bookcovers = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                A school project based on re-designing a new book series.
-                 I chose Modern Classic, and focused on creating coherent design using samle illustration style and the same colour palett throughout.
+                A school project based on re-designing a new book series. I chose Modern Classic, and focused on creating coherent design using same illustration style and the same colour palette throughout.
+
                 </p>
             
 

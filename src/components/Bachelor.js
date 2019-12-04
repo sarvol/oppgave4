@@ -65,11 +65,8 @@ const Bachelor = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                    A new visual identity for Terra Manes. Terra Manes is a new fictional clothing brand that focus on sustainable fashion on a luxury marked.
+                A new visual identity for Terra Manes. Terra Manes is a new fictional clothing brand that focus on sustainable fashion on a luxury marked. For my final bachelor project, I wanted to shed light on the problems found in the fashion and textile industry. The fashion industry is the second most polluted industry in the world and in need for change. My solution was to create a brand that focus on quality and sustainability on a luxury marked, where I believe the changes should begin. The identity focus on how you can still buy luxury items that are more environmentally friendly, without losing the touch of luxury. Buying high quality, long lasting and timeless pieces should not be bought on the cost of the environment or the workers, and should be prioritised over the mass production of trend pieces consumed today.
 
-                    For my final bachelor project I wanted to shed light on the problems found in the fashion and textile industry. The fashion industry is the second most polluted industry in the world and in need for change. My solution was to create a brand that focus on quality and sustainability on a luxury marked, where I believe the changes should begin. The identity focus on how you can still buy luxury items that are more environmentally friendly, without losing the touch of luxury.
-
-                    Buying high quality, long lasting and timeless pieces should not be bought on the cost of the environment or the workers, and should be prioritised over the mass production of trend pieces consumed today.
                 </p>
                 <div className="imgProsjekt">
                     <img  alt="Logo" src="https://pro2-bar-s3-cdn-cf.myportfolio.com/c63e1ab5-862e-4a2c-9391-4f6d7cec9251/82a77121-f2d8-462a-8f38-c79f637c073b_rw_1920.png?h=cd494aa4d5844a969ab4858cb7d32294" />

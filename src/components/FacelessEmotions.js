@@ -50,7 +50,8 @@ const FacelessEmotion = () => {
                  </h3>
 
                 <p className="prosjektInfo">
-                Faces and emotions are hard to read. Sometimes even harder to detect. The face is a vital part of showing how you feel. We grow up learning how to express ourself through different emotions, and read other peoples emotions and act accordingly. This series of poster tries to describe and visualize the 6 most common emotions through colors, when the faces are taken away. 
+                Faces and emotions are hard to read, sometimes even harder to detect. The face is a vital part of showing how you feel. We grow up learning how to express ourselves through different emotions, and read other people’s emotions and act accordingly. This series of poster tries to describe and visualize the 6 most common emotions through colours, when the facial expression is taken away.
+
                 </p>
             
 

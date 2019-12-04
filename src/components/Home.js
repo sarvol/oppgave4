@@ -28,7 +28,6 @@ const Home = () => {
                     ]}
                 /> 
              </h1>
-             {/* <h1 className="welcomeInfo">Check out my work</h1> */}
             
 
         </main>
