@@ -18,6 +18,7 @@ body {
 
 header {
   background-color: rgb(0, 0, 3);
+  z-index: 1;
 }
 
 .top-meny {
@@ -33,6 +34,7 @@ header {
   height: 3rem;
   top: 0;
   background-color: rgb(0, 0, 3);
+  z-index: 1;
 
 }
 
@@ -40,6 +42,12 @@ header {
 .top-meny a {
   text-decoration: none;
   color: white;
+}
+
+.top-meny a:hover {
+  text-decoration: underline;
+  color: white;
+  transition: 0.5s;
 }
 
 
@@ -50,6 +58,7 @@ header {
   align-items: center;
   top: 0;
   background-color: rgb(0, 0, 3);
+  z-index: 1;
 }
 
 .App-logo {
@@ -58,6 +67,7 @@ header {
   grid-auto-flow: column;
   justify-content: center;
   margin: 3rem auto;
+  z-index: 1;
 }
 
 
@@ -229,12 +239,12 @@ section.fotografier {
   
 }
 
-.foto>img:hover {
+/* .foto>img:hover {
   width: 120%;
   transform: translateX(-8%);
   transition: 1s;
   
-}
+} */
 
 
 
