@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/oppgave4/home/static/css/main.dbf1f61d.chunk.css",
-    "main.js": "/oppgave4/home/static/js/main.a2d835ec.chunk.js",
-    "main.js.map": "/oppgave4/home/static/js/main.a2d835ec.chunk.js.map",
-    "runtime-main.js": "/oppgave4/home/static/js/runtime-main.de423420.js",
-    "runtime-main.js.map": "/oppgave4/home/static/js/runtime-main.de423420.js.map",
-    "static/js/2.88aed006.chunk.js": "/oppgave4/home/static/js/2.88aed006.chunk.js",
-    "static/js/2.88aed006.chunk.js.map": "/oppgave4/home/static/js/2.88aed006.chunk.js.map",
-    "index.html": "/oppgave4/home/index.html",
-    "precache-manifest.fd24a012f96b87e656f301a1c9dcfb05.js": "/oppgave4/home/precache-manifest.fd24a012f96b87e656f301a1c9dcfb05.js",
-    "service-worker.js": "/oppgave4/home/service-worker.js",
-    "static/css/main.dbf1f61d.chunk.css.map": "/oppgave4/home/static/css/main.dbf1f61d.chunk.css.map",
-    "static/media/logo.png": "/oppgave4/home/static/media/logo.0fde65db.png",
-    "static/media/selv11-12.png": "/oppgave4/home/static/media/selv11-12.4f2c07ec.png"
+    "main.css": "/portfolio/static/css/main.dbf1f61d.chunk.css",
+    "main.js": "/portfolio/static/js/main.c12b107e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c12b107e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.86a05020.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.86a05020.js.map",
+    "static/js/2.29358d54.chunk.js": "/portfolio/static/js/2.29358d54.chunk.js",
+    "static/js/2.29358d54.chunk.js.map": "/portfolio/static/js/2.29358d54.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.062981c525bf00041447a39c73d95cb9.js": "/portfolio/precache-manifest.062981c525bf00041447a39c73d95cb9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.dbf1f61d.chunk.css.map": "/portfolio/static/css/main.dbf1f61d.chunk.css.map",
+    "static/media/logo.png": "/portfolio/static/media/logo.0fde65db.png",
+    "static/media/selv11-12.png": "/portfolio/static/media/selv11-12.4f2c07ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.de423420.js",
-    "static/js/2.88aed006.chunk.js",
+    "static/js/runtime-main.86a05020.js",
+    "static/js/2.29358d54.chunk.js",
     "static/css/main.dbf1f61d.chunk.css",
-    "static/js/main.a2d835ec.chunk.js"
+    "static/js/main.c12b107e.chunk.js"
   ]
 }
