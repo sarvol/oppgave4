@@ -1,6 +1,6 @@
 {
-  "name": "oppgave4",
-  "homepage": "https://sarvol.github.io/oppgave4/home",
+  "name": "portfolio",
+  "homepage": "https://sarvol.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
