@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/oppgave4/static/css/main.dbf1f61d.chunk.css",
-    "main.js": "/oppgave4/static/js/main.befb4386.chunk.js",
-    "main.js.map": "/oppgave4/static/js/main.befb4386.chunk.js.map",
-    "runtime-main.js": "/oppgave4/static/js/runtime-main.701c1f4c.js",
-    "runtime-main.js.map": "/oppgave4/static/js/runtime-main.701c1f4c.js.map",
-    "static/js/2.88aed006.chunk.js": "/oppgave4/static/js/2.88aed006.chunk.js",
-    "static/js/2.88aed006.chunk.js.map": "/oppgave4/static/js/2.88aed006.chunk.js.map",
-    "index.html": "/oppgave4/index.html",
-    "precache-manifest.47b570df26114791e17d51c182576070.js": "/oppgave4/precache-manifest.47b570df26114791e17d51c182576070.js",
-    "service-worker.js": "/oppgave4/service-worker.js",
-    "static/css/main.dbf1f61d.chunk.css.map": "/oppgave4/static/css/main.dbf1f61d.chunk.css.map",
-    "static/media/logo.png": "/oppgave4/static/media/logo.0fde65db.png",
-    "static/media/selv11-12.png": "/oppgave4/static/media/selv11-12.4f2c07ec.png"
+    "main.css": "/oppgave4/home/static/css/main.dbf1f61d.chunk.css",
+    "main.js": "/oppgave4/home/static/js/main.a2d835ec.chunk.js",
+    "main.js.map": "/oppgave4/home/static/js/main.a2d835ec.chunk.js.map",
+    "runtime-main.js": "/oppgave4/home/static/js/runtime-main.de423420.js",
+    "runtime-main.js.map": "/oppgave4/home/static/js/runtime-main.de423420.js.map",
+    "static/js/2.88aed006.chunk.js": "/oppgave4/home/static/js/2.88aed006.chunk.js",
+    "static/js/2.88aed006.chunk.js.map": "/oppgave4/home/static/js/2.88aed006.chunk.js.map",
+    "index.html": "/oppgave4/home/index.html",
+    "precache-manifest.fd24a012f96b87e656f301a1c9dcfb05.js": "/oppgave4/home/precache-manifest.fd24a012f96b87e656f301a1c9dcfb05.js",
+    "service-worker.js": "/oppgave4/home/service-worker.js",
+    "static/css/main.dbf1f61d.chunk.css.map": "/oppgave4/home/static/css/main.dbf1f61d.chunk.css.map",
+    "static/media/logo.png": "/oppgave4/home/static/media/logo.0fde65db.png",
+    "static/media/selv11-12.png": "/oppgave4/home/static/media/selv11-12.4f2c07ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.701c1f4c.js",
+    "static/js/runtime-main.de423420.js",
     "static/js/2.88aed006.chunk.js",
     "static/css/main.dbf1f61d.chunk.css",
-    "static/js/main.befb4386.chunk.js"
+    "static/js/main.a2d835ec.chunk.js"
   ]
 }
